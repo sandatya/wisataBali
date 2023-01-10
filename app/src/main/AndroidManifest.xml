@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wisata" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wisata" >
+
+        <activity
+            android:name=".Lalaguna"
+            android:exported="true" />
+        <activity
+            android:name=".GreenKubu"
+            android:exported="true" />
+        <activity
+            android:name=".MamiJimbaran"
+            android:exported="true" />
+        <activity
+            android:name=".WardaniBali"
+            android:exported="true" />
+        <activity
+            android:name=".MenWeti"
+            android:exported="true" />
+        <activity
+            android:name=".AyamKedewatan"
+            android:exported="true" />
+        <activity
+            android:name=".MakBeng"
+            android:exported="true" />
+        <activity
+            android:name=".Dsawah"
+            android:exported="true" />
+        <activity
+            android:name=".tirtaEmpul"
+            android:exported="true" />
+        <activity
+            android:name=".katedral"
+            android:exported="true" />
+        <activity
+            android:name=".TanahLot"
+            android:exported="true" />
+        <activity
+            android:name=".TamanUjung"
+            android:exported="true" />
+        <activity
+            android:name=".Taro"
+            android:exported="true" />
+        <activity
+            android:name=".Penglipuran"
+            android:exported="true" />
+        <activity
+            android:name=".BaliBird"
+            android:exported="true" />
+        <activity
+            android:name=".KerthaGosa"
+            android:exported="true" />
+        <activity
+            android:name=".BajraSandi"
+            android:exported="true" />
+        <activity
+            android:name=".TamanNusa"
+            android:exported="true" />
+        <activity
+            android:name=".PulauPenyu"
+            android:exported="true" />
+        <activity
+            android:name=".BaliSafari"
+            android:exported="true" />
+        <activity
+            android:name=".Jatiluwih"
+            android:exported="true" />
+        <activity
+            android:name=".Tjampuhan"
+            android:exported="true" />
+        <activity
+            android:name=".Gitgit"
+            android:exported="true" />
+        <activity
+            android:name=".Nukad"
+            android:exported="true" />
+        <activity
+            android:name=".DanauBatur"
+            android:exported="true" />
+        <activity
+            android:name=".DesaPinggan"
+            android:exported="true" />
+        <activity
+            android:name=".NaturalHotSpring"
+            android:exported="true" />
+        <activity
+            android:name=".Batur"
+            android:exported="true" />
+
+        <activity android:name=".About" />
+        <activity android:name=".Kampoong" />
+        <activity android:name=".Pondok" />
+        <activity android:name=".Vihara" />
+        <activity android:name=".Gereja" />
+        <activity android:name=".Masjid" />
+        <activity android:name=".WisataReligi" />
+        <activity android:name=".WisataKuliner" />
+        <activity android:name=".Pustaka" />
+        <activity android:name=".KebunBinatang" />
+        <activity android:name=".Museum" />
+        <activity android:name=".WisataEdukasi" />
+        <activity android:name=".RiauFantasi" />
+        <activity android:name=".Okura" />
+        <activity android:name=".HutanRaya" />
+        <activity android:name=".AlamMayang" />
+        <activity android:name=".AirTerjun" />
+        <activity android:name=".WisataAlam" />
+        <activity android:name=".Danau" />
+        <activity android:name=".Alam" />
+       <!--<activity android:name=".MenuUtama" />-->
+        <activity
+            android:name=".MenuUtama"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
